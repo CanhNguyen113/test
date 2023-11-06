@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="js/all.min.js"></script>
+    <script src="js/moment.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">               
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" name="search-city" id="search-input" placeholder="Search for the city">
+            </div>
+            <div class="info-wrapper">
+                <p class="city-name">Ho Chi Minh</p>
+                <p class="weather-state">Cloudy</p> 
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                <p class="temperature">25</p>           
+            </div>          
+        <div class="additional-section">
+           <div class="row">
+            <div class="item">
+                <div class="label">Sunrises</div>
+                <div class="value sunrise">6:05</div>
+            </div>
+            <div class="item">
+                <div class="label">Sunset</div>
+                <div class="value sunset">17:30</div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="item">
+                <div class="label">Humidity</div>
+                <div class="value"><span class="humidity">72</span>%</div>
+            </div>
+            <div class="item">
+                <div class="label">Wind</div>
+                <div class="value"><span class="windy">5.52</span>km/h</div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
